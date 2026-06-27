@@ -1,0 +1,33 @@
+# Core AI
+anthropic>=0.25.0
+crewai>=0.51.0
+
+# Job scraping (free, no API key needed)
+python-jobspy>=1.1.0
+
+# Resume parsing & generation
+python-docx>=1.1.0
+pypdf2>=3.0.0
+reportlab>=4.0.0
+weasyprint>=60.0
+
+# Data & storage
+pandas>=2.0.0
+gspread>=6.0.0
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-api-python-client>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+schedule>=1.2.0
+rich>=13.0.0       # Pretty terminal output
+click>=8.0.0       # CLI interface
+httpx>=0.25.0
+
+# Optional: Apify for more reliable LinkedIn scraping
+apify-client>=1.6.0
+
+# Optional: Streamlit UI
+streamlit>=1.35.0

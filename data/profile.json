@@ -1,0 +1,144 @@
+{
+  "name": "Matan Czuckermann",
+  "title": "Real-Time Software Engineer",
+  "email": "cz.matan@gmail.com",
+  "phone": "052-8474048",
+  "location": "Akko, Israel",
+  "github": "https://github.com/matczu-97",
+  "linkedin": "https://www.linkedin.com/in/matan-czuckermann/",
+
+  "summary": "Software Engineer graduating with honors (GPA 91, Cum Laude) with 3 years of professional experience in C++ and Python. Strong background in modern C++17 development, including smart pointers, templates, RAII, move semantics, and the STL, along with Linux-based environments, real-time embedded software, multi-threaded programming, and performance optimization. Experienced building multi-agent AI systems with specialized LLM agents orchestrated in staged pipelines. Proficient with AI-assisted development (Claude, Cursor), DevOps workflows including CI/CD pipelines, automation scripting, system integration, and Git-based version control. Additional experience with React and React Native.",
+
+  "skills": {
+    "languages": ["C", "C++17", "Python", "Java", "JavaScript", "TypeScript", "MATLAB", "Shell", "Batch"],
+    "cpp_modern": [
+      "Smart pointers",
+      "Templates",
+      "RAII",
+      "Move semantics",
+      "STL",
+      "Design patterns"
+    ],
+    "frameworks": ["React", "React Native"],
+    "embedded_realtime": [
+      "Linux",
+      "Multi-threaded programming",
+      "Multi-process architecture",
+      "Microservices",
+      "TCP/UDP",
+      "GigE Vision",
+      "I2C",
+      "UART",
+      "Semaphores",
+      "Shared memory",
+      "Interrupt handling"
+    ],
+    "tools": [
+      "Git",
+      "Valgrind",
+      "Wireshark",
+      "trace-cmd",
+      "IDA",
+      "CI/CD",
+      "Bash",
+      "TensorFlow"
+    ],
+    "security_crypto": ["KYBER", "Dilithium", "RSA", "ECC", "AES"],
+    "ai_ml": ["Machine Learning", "Neural Networks", "TensorFlow", "Multi-agent systems", "LLM orchestration", "Claude", "Cursor"]
+  },
+
+  "experience_years": 3,
+
+  "experience": [
+    {
+      "title": "Real-Time Software Engineer",
+      "company": "Rafael Advanced Defense Systems",
+      "period": "2023 – Present",
+      "highlights": [
+        "Led design and development of a real-time, multi-process C++ system integrating hardware under strict timing constraints",
+        "Built large-scale real-time C++ components using microservices and advanced communication protocols on Linux",
+        "Developed production C++17 code using modern C++ features including smart pointers, templates, RAII, move semantics, and STL containers/algorithms",
+        "Implemented real-time synchronization and interrupt-handling with semaphores, shared memory, and Ethernet interrupts",
+        "Diagnosed complex timing, protocol, and system-freeze issues using Valgrind, Wireshark, trace-cmd, and IDA",
+        "Built automation tools in Python, Bash, and MATLAB for validation, testing, and integration",
+        "Collaborated with DevOps teams to improve CI/CD pipelines and reduce system downtime",
+        "Designed quantum-resistant communication protocols integrating KYBER and Dilithium alongside RSA, ECC, and AES"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Job Agent System",
+      "description": "Multi-agent AI pipeline that scrapes job boards, scores matches against a resume, tailors documents per role, and generates cover letters using Claude"
+    },
+    {
+      "name": "QSSL",
+      "description": "Quantum-resistant communication protocol"
+    },
+    {
+      "name": "CEMS",
+      "description": "Exam management system"
+    },
+    {
+      "name": "Egg Classifier CNN",
+      "description": "Image classification using TensorFlow"
+    },
+    {
+      "name": "Movie Mobile App",
+      "description": "React Native mobile application"
+    },
+    {
+      "name": "Linux Bash Shell",
+      "description": "Small shell implementation in C"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Sc. Software Engineering (Cum Laude, GPA 91)",
+      "institution": "Ort Braude College of Engineering, Carmiel",
+      "year": 2025,
+      "highlights": [
+        "Object-Oriented Programming",
+        "Algorithms",
+        "Data Structures",
+        "Neural Networks",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Hardware Testing",
+        "Real-Time Programming"
+      ]
+    }
+  ],
+
+  "languages_spoken": {
+    "Hebrew": "native",
+    "English": "fluent"
+  },
+
+  "additional": [
+    "Israel fencing national team member; represented Israel in multiple World Cups",
+    "Israel representative at the Zone Championship for Tokyo Olympic Games qualification",
+    "Patent No. 243258 — Self Contained Breathing Apparatus Emergency Air Supply",
+    "Israeli Air Force (2016–2019) — Accredited Athlete"
+  ],
+
+  "preferences": {
+    "job_types": ["fulltime", "contract"],
+    "work_mode": ["remote", "hybrid", "onsite"],
+    "min_salary": 25000,
+    "currency": "ILS",
+    "industries": ["tech", "defense", "embedded", "aerospace", "AI"],
+    "excluded_keywords": ["intern", "junior", "director", "VP", "C#", ".NET"]
+  },
+
+  "job_search_keywords": [
+    "Real-Time Software Engineer",
+    "C++ Developer",
+    "Embedded Software Engineer",
+    "Software Engineer",
+    "Python Developer",
+    "React Native Developer"
+  ]
+}
