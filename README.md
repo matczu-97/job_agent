@@ -126,10 +126,8 @@ JOB_RADIUS_KM=200
 | Key | Where to get it | Cost |
 |-----|----------------|------|
 | `ANTHROPIC_API_KEY` | [console.anthropic.com](https://console.anthropic.com) | ~$0.01/run |
-| `APIFY_API_KEY` | [apify.com](https://apify.com) (optional) | Free tier |
 
-> **Note:** JobSpy is used by default for scraping (free, no key needed).
-> Apify is optional for more reliable LinkedIn scraping.
+> **Note:** JobSpy is used for scraping (free, no key needed).
 
 ## CLI Reference
 

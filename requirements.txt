@@ -26,8 +26,5 @@ rich>=13.0.0       # Pretty terminal output
 click>=8.0.0       # CLI interface
 httpx>=0.25.0
 
-# Optional: Apify for more reliable LinkedIn scraping
-apify-client>=1.6.0
-
 # Optional: Streamlit UI
 streamlit>=1.35.0

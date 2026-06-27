@@ -22,7 +22,6 @@ PROFILE_PATH = DATA_DIR / "profile.json"
 
 # ── API Keys ────────────────────────────────────────────────────────────
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-APIFY_API_KEY = os.getenv("APIFY_API_KEY")
 GOOGLE_CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH")
 GMAIL_SENDER = os.getenv("GMAIL_SENDER")
 
