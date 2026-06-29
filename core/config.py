@@ -46,7 +46,7 @@ JOB_LOCATIONS = _parse_string_list(os.getenv("JOB_LOCATION"), DEFAULT_JOB_LOCATI
 JOB_COUNTRY = os.getenv("JOB_COUNTRY", "Israel")
 JOB_RADIUS_KM = int(os.getenv("JOB_RADIUS_KM", 50))
 JOB_SEARCH_DISTANCE_MILES = max(1, round(JOB_RADIUS_KM * 0.621371))
-MIN_MATCH_SCORE = int(os.getenv("MIN_MATCH_SCORE", 65))
+MIN_MATCH_SCORE = int(os.getenv("MIN_MATCH_SCORE", 70))
 MAX_JOBS_PER_RUN = int(os.getenv("MAX_JOBS_PER_RUN", 20))
 RESULTS_WANTED = int(os.getenv("RESULTS_WANTED", 50))
 
@@ -59,7 +59,7 @@ def load_profile() -> dict:
     if not PROFILE_PATH.exists():
         raise FileNotFoundError(
             f"Profile not found at {PROFILE_PATH}. "
-            "Copy data/profile.json and fill in your details."
+            "Copy data/profile.example.json to data/profile.json and fill in your details."
         )
     with open(PROFILE_PATH) as f:
         return json.load(f)

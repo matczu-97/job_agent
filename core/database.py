@@ -180,7 +180,7 @@ def get_jobs_by_status(status: str) -> list[dict]:
         return [dict(r) for r in rows]
 
 
-def get_top_matches(min_score: int = 65, limit: int = 10) -> list[dict]:
+def get_top_matches(min_score: int = 70, limit: int = 10) -> list[dict]:
     with get_connection() as conn:
         rows = conn.execute("""
             SELECT * FROM jobs

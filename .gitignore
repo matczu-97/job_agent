@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 outputs/
 data/jobs.db
+data/profile.json
+data/master_resume.docx
+data/master_resume.pdf

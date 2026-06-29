@@ -1,0 +1,72 @@
+{
+  "name": "Your Name",
+  "title": "Software Engineer",
+  "email": "you@example.com",
+  "phone": "+1-555-0100",
+  "location": "City, Country",
+  "github": "https://github.com/your-username",
+  "linkedin": "https://www.linkedin.com/in/your-profile/",
+
+  "summary": "Brief professional summary: years of experience, core languages, domains, and what kind of roles you are targeting. Keep this to 3–5 sentences.",
+
+  "skills": {
+    "languages": ["Python", "JavaScript", "TypeScript"],
+    "frameworks": ["React", "FastAPI"],
+    "tools": ["Git", "Docker", "CI/CD"],
+    "other": ["Add custom skill groups as needed"]
+  },
+
+  "experience_years": 2,
+
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Company Name",
+      "period": "2022 – Present",
+      "highlights": [
+        "Achievement with measurable impact",
+        "Technology or system you built or improved",
+        "Collaboration, leadership, or ownership example"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "One-line description of what it does and the stack you used"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "University Name",
+      "year": 2024,
+      "highlights": ["Relevant coursework or honors"]
+    }
+  ],
+
+  "languages_spoken": {
+    "English": "fluent"
+  },
+
+  "additional": [
+    "Optional: certifications, open-source contributions, awards"
+  ],
+
+  "preferences": {
+    "job_types": ["fulltime"],
+    "work_mode": ["remote", "hybrid", "onsite"],
+    "min_salary": 0,
+    "currency": "USD",
+    "industries": ["tech"],
+    "excluded_keywords": ["intern", "junior"]
+  },
+
+  "job_search_keywords": [
+    "Software Engineer",
+    "Python Developer",
+    "Backend Engineer"
+  ]
+}
